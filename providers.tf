@@ -17,10 +17,10 @@ terraform {
   }
   # Terraform State Storage to Azure Storage Container (Values will be taken from Azure DevOps)
   backend "azurerm" {
-    resource_group_name  = "terraform-state-rg"
-    storage_account_name = "tfstatesanku"
-    container_name       = "tfstatefiles"
-    key                  = "dev-terraform.tfstate"
+    resource_group_name  = var.state_rg //"terraform-state-rg"
+    storage_account_name = var.state_sa //"tfstatesanku"
+    container_name       = var.state_container //"tfstatefiles"
+    key                  = var.state_key //"dev-terraform.tfstate"
   }
 }
 
