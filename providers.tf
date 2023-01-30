@@ -22,9 +22,9 @@ terraform {
     storage_account_name = var.state_sa //"tfstatesanku"
     container_name       = var.state_container //"tfstatefiles"
     key                  = var.state_key //"dev-terraform.tfstate"
-  }
+  }*/
 }
-*/
+
 # Provider Block
 provider "azurerm" {
   features {}
