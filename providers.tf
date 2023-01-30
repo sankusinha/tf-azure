@@ -15,6 +15,7 @@ terraform {
       version = ">= 3.0"
     }
   }
+  /*
   # Terraform State Storage to Azure Storage Container (Values will be taken from Azure DevOps)
   backend "azurerm" {
     resource_group_name  = var.state_rg //"terraform-state-rg"
@@ -23,7 +24,7 @@ terraform {
     key                  = var.state_key //"dev-terraform.tfstate"
   }
 }
-
+*/
 # Provider Block
 provider "azurerm" {
   features {}
