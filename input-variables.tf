@@ -62,3 +62,8 @@ variable "state_key" {
   //default     = "dev-terraform.tfstate"
 }
 */
+
+variable "rg_data" {
+  description = "Existing resource group as data resource"
+  type = string
+}
