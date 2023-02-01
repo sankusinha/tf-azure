@@ -67,3 +67,6 @@ variable "rg_data" {
   description = "Existing resource group as data resource"
   type = string
 }
+data "azurerm_resource_group" "test" {
+  name = var.rg_data
+}
