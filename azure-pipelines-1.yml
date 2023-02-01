@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: mavenBuildAgent
+  vmImage: tf-agent
 
 steps:
 
