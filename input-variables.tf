@@ -70,3 +70,6 @@ variable "rg_data" {
 data "azurerm_resource_group" "test" {
   name = var.rg_data
 }
+output "rg_id" {
+  value = data.azurerm_resource_group.test.id
+}
