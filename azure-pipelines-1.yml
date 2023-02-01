@@ -16,3 +16,8 @@ steps:
     SourceFolder: '$(agent.builddirectory)'
     Contents: '**'
     TargetFolder: '$(build.artifactstagingdirectory)'
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'tf_config_file'
+    publishLocation: 'Container'
