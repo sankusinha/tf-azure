@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: tf-agent
+pool: terraform
 
 steps:
 
