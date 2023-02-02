@@ -25,9 +25,18 @@ terraform {
   }*/
 }
 
-# Provider Block
 provider "azurerm" {
   features {}
 }
 
+# Scalr Provider Block
+provider scalr {}
 
+terraform {
+    required_providers {
+        scalr = {
+            source = "registry.scalr.io/scalr/scalr"
+            version = "7.7.7"
+        }
+    }
+}
