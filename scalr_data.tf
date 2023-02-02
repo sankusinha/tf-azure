@@ -5,8 +5,8 @@ resource "scalr_workspace" "poc" {
   var_files = ["terraform.tfvars"]
 
   vcs_repo {
-    identifier = "sankusinha/tf-azure"
-    branch = "main"
+    identifier = "tf-azure-git"
+    branch = "scalr"
   }
 }
 
