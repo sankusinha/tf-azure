@@ -8,7 +8,7 @@ terraform {
     }
     scalr = {
             source = "registry.scalr.io/scalr/scalr"
-            version = "7.7.7"
+            version = "1.0.0"
     }
     random = {
       source  = "hashicorp/random"
