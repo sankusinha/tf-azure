@@ -6,6 +6,10 @@ terraform {
       source  = "hashicorp/azurerm"
       version = ">= 2.0"
     }
+    scalr = {
+            source = "registry.scalr.io/scalr/scalr"
+            version = "7.7.7"
+    }
     random = {
       source  = "hashicorp/random"
       version = ">= 3.0"
@@ -31,12 +35,3 @@ provider "azurerm" {
 
 # Scalr Provider Block
 provider scalr {}
-
-terraform {
-    required_providers {
-        scalr = {
-            source = "registry.scalr.io/scalr/scalr"
-            version = "7.7.7"
-        }
-    }
-}
