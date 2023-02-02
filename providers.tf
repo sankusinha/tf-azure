@@ -34,4 +34,4 @@ provider "azurerm" {
 }
 
 # Scalr Provider Block
-#provider scalr {}
+provider scalr {}
