@@ -24,6 +24,7 @@ variable "rg_existing_name" {
   description = "Existing resource group as data resource"
   type = string
 }
+/*
 variable "hostname" {
   description = "Scalr hostname"
   type = string
@@ -31,4 +32,4 @@ variable "hostname" {
 variable "api_token" {
   description = "Scalr api_token"
   type = string
-}
+}*/
