@@ -43,5 +43,5 @@ provider "azurerm" {
 # Scalr Provider Block
 provider scalr {
   hostname = "sanku.scalr.io"
-  token    = "at-ug25p7vjceatg50"
+  token    = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzZXJ2aWNlLWFjY291bnQiLCJqdGkiOiJhdC11ZzJuNWtpbG1mNzlhODAiLCJzdWIiOiJzYS11ZzI1cDUxY3U1YjlybzAifQ.HCHadXNJWUNoNuEVUjExKP7RMM9oemOexOl5X6yzgMQ"
 }
