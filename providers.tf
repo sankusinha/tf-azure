@@ -6,10 +6,10 @@ terraform {
       source  = "hashicorp/azurerm"
       version = ">= 2.0"
     }
-    #scalr = {
-    #        source = "registry.scalr.io/scalr/scalr"
-    #        version= "1.0.2"
-    #}
+    scalr = {
+            source = "registry.scalr.io/scalr/scalr"
+            version= "1.0.2"
+    }
     random = {
       source  = "hashicorp/random"
       version = ">= 3.0"
