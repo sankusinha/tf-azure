@@ -1,5 +1,5 @@
 trigger:
-- main
+- scalr-poc
 
 stages:
 # Build Stage 
