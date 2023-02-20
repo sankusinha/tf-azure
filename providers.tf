@@ -21,9 +21,9 @@ terraform {
   }
   backend "remote" {
     hostname = "sanku.scalr.io"
-    organization = "<organization-name of environment>"
+    organization = "env-uf5ebob1hi6o810"
     workspaces {
-      name = "<workspace-name>"
+      name = "git-poc-scalr"
     }
   }
   /*
